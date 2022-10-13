@@ -1,0 +1,25 @@
+O que é um ponteiro para uma função?
+Pesquise na Internet referências sobre o assunto e escreva um pequeno programa exemplificando o uso deste recurso.
+
+
+
+resposta: 
+#include <stdio.h>
+
+#include <math.h>
+
+int raiz (int a){
+
+return sqrt(a);
+
+}
+
+int main(void){
+
+int (*ponteiro)(int) = &raiz;
+
+printf("%d", ponteiro(25));
+
+  return 0;
+
+}

@@ -1,0 +1,15 @@
+Questão 2 - Lista de ponteiros
+Para 
+int i=3,j=5;
+int *p, *q;
+p = &i;
+q = &j;
+
+
+Resposta:
+p == &i, retorna o endereço de i
+*p - *q = -2
+
+**&p = 3
+
+3 - *p/(*q) + 7 = 10

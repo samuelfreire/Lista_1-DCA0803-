@@ -1,0 +1,20 @@
+9. O que fazem os seguintes programas em C?
+
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+    printf("%d ",*(vet+i));
+  }
+}
+resposta: *(vet+i) é igual escrever px[i], logo o programa printa os valores para vet[0],vet[1] e vet[2]
+
+
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+    printf("%X ",vet+i);
+  }
+}
+resposta: o programa vai printar os endereços de vet[0], vet[1] e vet[2]

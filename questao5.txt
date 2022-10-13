@@ -1,0 +1,19 @@
+Questão 5
+Determine o que será mostrado pelo seguinte programa
+(compile-o, execute-o e verifique se foram obtidas as respostas esperadas).
+
+Resposta:
+20
+29
+p
+e
+p
+e
+t
+31
+45
+27
+31
+45
+27
+Não são as respostas esperadas pela intenção de quem escreveu o programa, por causa do tipo de cada variável.

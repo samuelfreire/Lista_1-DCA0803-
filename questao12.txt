@@ -1,0 +1,17 @@
+12. Identifique quais dos seguintes comandos é válido ou inválido:
+
+aloha[2] = value;
+scanf("%f", &aloha);
+aloha = value";
+printf("%f", aloha);
+coisas[4][4] = aloha[3];
+coisas[5] = aloha;
+pf = value;
+pf = aloha;
+
+resposta: 
+aloha = value
+coisas[5] = aloha
+pf = value 
+são os comando inválidos, tentam igualar uma variável que armazena um endereço de memória a um valor
+o restante são comandos válidos

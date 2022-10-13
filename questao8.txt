@@ -1,0 +1,11 @@
+8. Considerando a declaração int mat[4], *p, x;, quais das seguintes expressões são válidas? Justifique.
+
+p = mat + 1;
+p = mat++;
+p = ++mat;
+x = (*mat)++;
+
+resposta:
+p = mat + 1 é válido, pois o ponteiro p, recebe o endereço de mat[1]
+x = (*mat)++ é válido, pois x recebe o valor armazenado no primeiro elemento de mat[x]
+as outras duas não são operações válidas, pois mat não incrementa com outros endereços, já que é um array

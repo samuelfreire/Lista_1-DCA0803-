@@ -1,0 +1,20 @@
+Mostre o que será impresso por programa supondo que i ocupa o endereço 4094 na memória.
+
+int i=5, *p;
+p = &i;
+printf("%x %d %d %d %d", p,*p+2,**&p,3**p,**&p+4);
+}
+
+Resposta:
+
+//%x, p retorna o endereço de i
+
+//*p+2, retorna o valor de i + 2
+
+//**&p, retorna o valor guardado no endereço de i
+
+//3**p, retorna i*3=15
+
+//**&p+4, retorna o valor guardado no endereço de i + 4 = 9
+
+Será impresso pelo programa: 4094, 7, 5, 15, 9
